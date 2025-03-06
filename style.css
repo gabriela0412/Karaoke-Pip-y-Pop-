@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+body {
+    font-family: 'Syne', sans-serif;
+    background: #121212;
+    text-align: center;
+    color: #b3b3b3;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive; 
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.75); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); 
+    display: inline-block;
+    width: 80%;
+    max-width: 350px;
+    margin-top: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #444; 
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    background-color: #333; 
+    color: #fff; 
+}
+
+button {
+    background: #1db954; 
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1ed760; 
+}
+
+h3 {
+    margin-top: 20px;
+    color: #fff; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.1); 
+    margin: 8px auto;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+    max-width: 300px;
+    font-size: 1.1em;
+    color: #fff; 
+}
+
+a {
+    color: #1db954; 
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.delete-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    background: #cc3c3c;
+}
