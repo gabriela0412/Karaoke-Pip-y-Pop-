@@ -9,7 +9,7 @@ function addsong(songName, songArtist, songLink) {
     const item = document.createElement('li');
     item.innerHTML = `
     <strong>${songName}<strong> - ${songArtist}
-    <a href = "${songLink}"> 🎵 Reproducir<a>
+    <a href="${songLink}" target="_blank"> 🎵 Reproducir</a>
     <button class="delete-btn">Eliminar </button>
     `;
  
